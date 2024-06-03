@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: rgba(255, 255, 255, 0.2);
+  --color-darkBlue: #11131c;
+  --color-zinc-950: #070709;
+}
+
+body::-webkit-scrollbar,
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track,
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #0d0d0f;
+}
+
+body::-webkit-scrollbar-thumb,
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #1d1d1d;
+  border-radius: 16px;
+  outline: none;
+}
+
+.borderBlack {
+  @apply border  border-black/10;
+}
