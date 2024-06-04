@@ -1,14 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/ActiveSectionContextProvider";
-import { FaBehance } from "react-icons/fa";
 import SocialLinksContainer from "./SocialLinksContainer";
 
 const Intro = () => {
@@ -147,7 +146,7 @@ const Intro = () => {
           </Link>
 
           <a
-            href="https://docs.google.com/document/d/1UzwMv0rYWlNfoUzbMQOgMPrudD1JTcR418tCqllyBrY/edit"
+            href="https://docs.google.com/document/d/1UzwMv0rYWlNfoUzbMQOgMPrudD1JTcR418tCqllyBrY/export?format=pdf"
             download
             className="flex w-fit items-center gap-2  px-7 py-3 rounded-full outline-none hover:scale-[1.05] active:scale-105 transition group cursor-pointer border border-black/10 bg-white/10"
           >
